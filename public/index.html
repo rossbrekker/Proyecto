@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Librería</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div id="Encabezado">
+        <h1>Libros</h1>
+    </div>
+
+    <div id="nav-botones">
+        <button onclick="location.href='crear.html'">Crear Libro</button>
+        <button onclick="location.href='eliminar.html'">Eliminar Libro</button>
+    </div>
+
+    <div id="Controles" class="card">
+        <label for="libroId">Introduce el ID del Libro (1-200)</label><br>
+        <input type="number" id="libroId"><br>
+        <button onclick="buscarLibro()">BUSCAR</button>
+    </div>
+    
+    <div id="ContenedorLibro" class="card resultado">
+        <p>Introduce un ID</p>
+    </div>
+
+    <script src="app.js"></script>
+
+    <div id="nav-botones">
+        <button onclick="location.href='login.html'">Salir</button>
+    </div>
+
+</body>
+</html>
